@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <!-- Add your CSS files here -->
+     <style>
+      .subscribe-btn{
+       background-color:rgb(255, 0, 0);
+       color:white;
+       border:none;
+     padding-top:10px;
+     padding-bottom:10px;
+     padding-left:16px;
+     padding-right:16px;
+       border-radius:2px;
+       cursor:pointer;
+       margin-right:10px;
+       transition:opacity 0.15s;
+      }
+      .subscribe-btn:hover{
+        opacity:0.6;
+        color:white;
+      }
+      .subscribe-btn:active{
+        opacity:0.5;
+        color:white;
+      }
+
+      .join-btn{
+        background-color: white;
+        color:rgb(109, 109, 226);
+        border-color:rgb(38, 93, 232);
+        border-style:solid;
+        border-width:2px;
+        border-radius:2px;
+        cursor:pointer;
+       
+        margin-right:10px;
+        transition:background-color 0.15s, 
+        color 0.15s;
+        
+      }
+      .join-btn:hover{
+        background-color:rgb(38, 93, 232);
+        color:white;
+      }
+      .join-btn:active{
+        opacity:0.7;
+      }
+
+
+      .tweet-btn{
+        background-color:rgb(60, 150, 223);
+        color: white;
+        border:none;
+        
+        border-radius:10px;
+        cursor:pointer;
+        font-size:15px;
+        transition:box-shadow 0.15s;
+
+      }
+      .tweet-btn:hover{
+        box-shadow:5px 5px 10px rgba(0,0,0,0.15);
+
+      }
+     </style>
+</head>
+<body>
+  <button class="subscribe-btn">
+    Subscribe
+  </button>
+
+  
+ <button class="join-btn">
+  JOIN
+ </button>
+ 
+ <button class="tweet-btn">
+  Tweet
+ </button>
+  
+</body>
+</html>
