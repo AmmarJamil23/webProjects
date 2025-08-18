@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(207, 191, 172);
+        }
+        
+        .card {
+            height:70vh;
+            width:43%;
+            background-color:rgb(169, 187, 187);
+            margin:140px 200px;
+          
+        }
+        .logo-section {
+            font-size:27px;
+            display: flex;
+            justify-content: flex-start; 
+            align-items: center;
+            gap:10px;
+            padding:20px 20px;
+            position:relative
+            
+        }
+        .logo-name {
+            position:absolute;
+            left:50px;
+            top:18px;
+        }
+        img {
+            height:25px;
+            width:25px;
+            position: absolute;
+            top:20px;
+        }
+
+        .main-heading-container {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            position:relative
+            /* margin: 60px 50px; */
+            /* position: relative; */
+        }
+
+        .main-heading {
+            font-size:2.9rem;
+            margin:80px 10px;
+        }
+
+        .heading-description {
+            position:absolute;
+            top:70%;
+            
+        }
+        .main-img {
+            position: absolute;
+            top:50%;
+            left:23%;
+            height:20rem;
+            width:24rem;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+
+        <div class="logo-section">
+            <div class="logo">
+                <img src="photoshop.png" alt="">
+            </div>
+            <div class="logo-name">Venture</div>
+        </div>
+
+        <div class="main-heading-container">
+            <h1 class="main-heading">Financial Growth With Ease</h1>
+            <p class="heading-description">venture-group.io</p>
+        </div>
+
+        <img class="main-img" src="images.jpeg" alt="">
+
+
+
+    </div>
+    
+</body>
+</html>
