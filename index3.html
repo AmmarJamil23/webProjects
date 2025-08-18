@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            padding:0;
+            border:0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        
+        .nav {
+            width:100vw;
+            height:4rem;
+            background-color:bisque;
+            display:flex;
+            justify-content:space-around;
+            align-items: center;
+        }
+
+        .list {
+            /* text-decoration: none; */
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            font-size:1.2rem;
+            gap:40px;
+        }
+
+        .item {
+            list-style:none;
+            cursor:pointer;
+        }
+
+        .item:hover {
+            background-color: white;
+        }
+
+        .logo{
+            font-size:1.6rem;
+            display:flex;
+            align-self:auto
+        }
+
+        .get-btn {
+            padding:0.8rem 2em;
+            font-size:1rem;
+            background-color: rgb(86, 86, 243);
+            color:white;
+            border-radius:22px;
+
+        }
+
+        .main {
+            width:100%;
+            height:70vh;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+        }
+
+        .left {
+            width:45vw;
+            height:70vh;
+            padding-left:1rem;
+            /* margin-left:1rem; */
+            padding-top:4rem;
+            background-color: rgb(226, 216, 204);
+            
+
+
+            
+        }
+        .main-heading {
+            font-size:2.5rem;
+            align-self: center;
+            margin-left:1rem;
+        }
+
+        .info-btn {
+             padding:0.8rem 4em;
+            font-size:1rem;
+            background-color: rgb(86, 86, 243);
+            color:white;
+            border-radius:22px;
+            margin-left:4.5rem;
+            
+        }
+        /* .right {
+            height:70vh;
+            width:50vw;
+            background-image: url("bg-img");
+       
+        } */
+
+        
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="nav">
+        <div class="logo">LOGO</div>
+        <ul class="list">
+            <li class="item">Home</li>
+            <li class="item">About us</li>
+            <li class="item">Course</li>
+            <li class="item">Pricing</li>
+            <li class="item">Contact</li>
+            <button class="get-btn">Get Started</button>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="left">
+            <h1 class="main-heading">
+                BUSINESS <br> LANDING PAGE
+            </h1>
+
+            <p class="main-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Molestiae necessitatibus modi commodi officia suscipit 
+                accusamus repellat, porro, dolorem laudantium similique 
+                natus quisquam? Quis eos ipsum dolore a ad corporis eum!
+            </p>
+
+            <button class="info-btn">More Info</button>
+
+
+
+        </div>
+
+        <div class="right"></div>
+    </div>
+    
+</body>
+</html>
