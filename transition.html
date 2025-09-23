@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin-top:50px;
+            margin-left:500px;
+            width:250px;
+            height:200px;
+            background-color:aqua;
+            transition:width 2s, height 3s, background-color 3s;
+        }
+
+        .container:hover {
+            width:350px;
+            height: 350px;
+            background-color: orange;
+        }
+
+         .container2 {
+         width: 100px;
+         height: 100px;
+         background-color: red;
+         position: relative;
+         animation-name: myAnimation;
+         animation-duration: 4s;
+        }
+        @keyframes myAnimation {
+        0%   {
+            background-color:red; 
+            left:0px; 
+            top:0px;
+        }
+        25%
+        {
+
+            background-color:yellow; 
+            left:200px;
+             top :0px;
+            }
+        50%
+        {
+
+            background-color:blue;
+             left:200px;
+              top:200px;}
+        75%  
+        {
+            background-color:green ; 
+            left:0px; 
+            top:200px;
+        }
+        100%
+        {
+            background-color:red;
+             left:0px;
+              top:0px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+    </div>
+
+    <div class="container2">
+
+    </div>
+</body>
+</html>
